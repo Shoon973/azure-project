@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "vivifactory"
+		},
+		"AzureSql_password": {
+			"value": ""
+		},
+		"datalake_accountKey": {
+			"value": ""
+		},
+		"AzureSql_properties_typeProperties_server": {
+			"value": "viviprojectserver.database.windows.net"
+		},
+		"AzureSql_properties_typeProperties_database": {
+			"value": "viviazure"
+		},
+		"AzureSql_properties_typeProperties_userName": {
+			"value": "vivian"
+		},
+		"datalake_properties_typeProperties_url": {
+			"value": "https://viviazure.dfs.core.windows.net/"
+		}
+	}
+}
