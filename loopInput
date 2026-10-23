@@ -1,33 +1,34 @@
 [
   {
-    "schema" : "dbo"
+    "schema" : "dbo",
     "table"  : "DimUser",
-    "cdc_col": "updated_at"
+    "cdc_col": "updated_at",
     "from_date":""
 },
  {
-    "schema" : "dbo"
+    "schema" : "dbo",
     "table"  : "DimTrack",
-    "cdc_col": "updated_at"
+    "cdc_col": "updated_at",
     "from_date":""
 },
 
  {
-    "schema" : "dbo"
+    "schema" : "dbo",
     "table"  : "DimDate",
-    "cdc_col": "updated_at"
+    "cdc_col": "updated_at",
     "from_date":""
 },
  {
-    "schema" : "dbo"
+    "schema" : "dbo",
     "table"  : "DimArtist",
-    "cdc_col": "updated_at"
+    "cdc_col": "updated_at",
     "from_date":""
 },
  {
-    "schema" : "dbo"
+    "schema" : "dbo",
     "table"  : "FactStream",
-    "cdc_col": "updated_at"
+    "cdc_col": "updated_at",
     "from_date":""
-},
+}
+]
 
