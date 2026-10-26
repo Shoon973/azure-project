@@ -58,3 +58,4 @@ spotify_azure/
 ## Tech
 
 Azure Data Factory, ADLS Gen2, Azure Databricks, Auto Loader, Delta Lake, Unity Catalog, Lakeflow Declarative Pipelines, Jinja2, Databricks Asset Bundles, PySpark.
+# azure-project

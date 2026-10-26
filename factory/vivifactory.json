@@ -1,0 +1,15 @@
+{
+	"name": "vivifactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38906ae8-dcb0-449d-8cde-c91d644a1f8d",
+		"tenantId": "bf8b114a-e2e0-41f9-bd71-689171fd2911"
+	}
+}
