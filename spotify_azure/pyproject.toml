@@ -1,0 +1,24 @@
+[project]
+name = "spotify_azure"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+    "jinja2",
+    "pyyaml",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint.per-file-ignores]
+# `spark` is injected by the Databricks runtime.
+"src/**" = ["F821", "E402"]

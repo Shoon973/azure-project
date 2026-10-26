@@ -1,0 +1,17 @@
+# Gold dimensions pipeline (SCD2) for spotify_azure
+
+resources:
+  pipelines:
+    spotify_azure_etl:
+      name: spotify_azure_etl
+      catalog: ${var.catalog}
+      schema: gold
+      serverless: true
+      root_path: "../src/gold"
+
+      configuration:
+        source_catalog: ${var.catalog}
+
+      libraries:
+        - glob:
+            include: ../src/gold/gold_dimensions.py
